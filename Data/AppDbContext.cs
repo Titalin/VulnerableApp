@@ -14,6 +14,9 @@ namespace VulnerableApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>().Property(u => u.Balance)
+                .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<User>().HasData(
                 new User
                 {
