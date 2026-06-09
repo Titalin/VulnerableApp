@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 using VulnerableApp.Data;
 using VulnerableApp.Models;
 
@@ -19,14 +20,10 @@ namespace VulnerableApp.Controllers
             if (string.IsNullOrEmpty(search))
                 return View(new List<User>());
 
-            string query =
-                "SELECT * FROM Users WHERE Username LIKE '%" +
-                search +
-                "%'";
-
+            // SEGURO: Uso de LINQ con expresiones lambda que genera consultas parametrizadas
             var users = _db.Users
-                .FromSqlRaw(query)
-                .ToList();
+                           .Where(u => u.Username.Contains(search))
+                           .ToList();
 
             return View(users);
         }

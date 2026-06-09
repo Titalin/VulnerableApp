@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using System.Linq;
 using VulnerableApp.Data;
 
 namespace VulnerableApp.Controllers
@@ -13,62 +14,40 @@ namespace VulnerableApp.Controllers
             _db = db;
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
+        public IActionResult Login() => View();
 
         [HttpPost]
         public IActionResult Login(string username, string password)
         {
-            if (username == "admin" && password == "admin")
-            {
-                HttpContext.Session.SetString("User", username);
-                HttpContext.Session.SetInt32("UserId", 1);
+            // SEGURO: Busca al usuario por su Username de forma parametrizada contra SQLi
+            var user = _db.Users.FirstOrDefault(u => u.Username == username);
 
-                return RedirectToAction("Dashboard");
+            // SEGURO: Se elimina el "admin" en código y se verifica usando el hash criptográfico (BCrypt)
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+            {
+                ViewBag.Error = "Credenciales inválidas"; // Mensaje genérico por seguridad
+                return View();
             }
 
-            string query =
-                "SELECT * FROM Users WHERE Username = '" +
-                username +
-                "' AND Password = '" +
-                password +
-                "'";
+            // Inicio de sesión seguro
+            HttpContext.Session.SetString("User", user.Username);
+            HttpContext.Session.SetInt32("UserId", user.Id);
 
-            var user = _db.Users
-                .FromSqlRaw(query)
-                .FirstOrDefault();
-
-            if (user != null)
-            {
-                HttpContext.Session.SetString("User", user.Username);
-                HttpContext.Session.SetInt32("UserId", user.Id);
-
-                return RedirectToAction("Dashboard");
-            }
-
-            ViewBag.Error = "Usuario/contraseña inválido";
-
-            return View();
+            return RedirectToAction("Dashboard");
         }
 
         public IActionResult Dashboard()
         {
             var userId = HttpContext.Session.GetInt32("UserId");
-
-            if (!userId.HasValue)
-                return RedirectToAction("Login");
+            if (!userId.HasValue) return RedirectToAction("Login");
 
             var user = _db.Users.Find(userId.Value);
-
             return View(user);
         }
 
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-
             return RedirectToAction("Index", "Home");
         }
     }

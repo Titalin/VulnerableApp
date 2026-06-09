@@ -1,0 +1,18 @@
+@model List<string>
+
+    <h2>Comentarios</h2>
+
+    <form method="post" action="/Comment/AddComment">
+        <textarea name="comment" rows="4" cols="50"></textarea>
+        <br />
+        <button type="submit">Comentar</button>
+    </form>
+
+    <hr />
+
+    <div id="comments">
+        @foreach (var comment in Model ?? new List<string>())
+    {
+        <div class="comment">@comment</div>
+    }
+    </div>

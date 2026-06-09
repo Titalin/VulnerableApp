@@ -22,7 +22,7 @@ namespace VulnerableApp.Data
                 {
                     Id = 1,
                     Username = "admin",
-                    Password = "admin",
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin"),
                     Email = "admin@test.com",
                     Balance = 1000m,
                     CreatedAt = new DateTime(2025, 1, 1)
@@ -31,7 +31,7 @@ namespace VulnerableApp.Data
                 {
                     Id = 2,
                     Username = "user1",
-                    Password = "123456",
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("123456"),
                     Email = "user@test.com",
                     Balance = 500m,
                     CreatedAt = new DateTime(2025, 1, 1)
@@ -40,7 +40,7 @@ namespace VulnerableApp.Data
                 {
                     Id = 3,
                     Username = "user2",
-                    Password = "password",
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("password"),
                     Email = "user2@test.com",
                     Balance = 750m,
                     CreatedAt = new DateTime(2025, 1, 1)
