@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using VulnerableApp.Data;
+using System.Diagnostics;
+using System;
 
 namespace VulnerableApp.Controllers
 {
@@ -9,34 +11,64 @@ namespace VulnerableApp.Controllers
     public class ApiController : ControllerBase
     {
         private readonly AppDbContext _db;
+        private readonly ILogger<ApiController> _logger;
 
-        public ApiController(AppDbContext db)
+        public ApiController(AppDbContext db, ILogger<ApiController> logger)
         {
             _db = db;
+            _logger = logger;
         }
 
         [HttpGet("user/{id}")]
         public IActionResult GetUser(int id)
         {
-            // SEGURO: Obtiene el ID del usuario en la sesión actual
-            var currentUserId = HttpContext.Session.GetInt32("UserId");
+            var stopwatch = Stopwatch.StartNew();
+            var userSession = HttpContext.Session.GetString("User") ?? "Anónimo";
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown";
 
-            // SEGURO: Si no está logueado, deniega acceso inmediato
-            if (!currentUserId.HasValue) return Unauthorized();
+            _logger.LogInformation("Inicio Api.GetUser. Usuario:{User} IP:{IP} Parámetros:[id={Id}]", userSession, ip, id);
 
-            // SEGURO: Control de acceso (IDOR) - Verifica si el usuario intenta ver un perfil ajeno
-            if (id != currentUserId.Value) return Forbid();
-
-            var user = _db.Users.Find(id);
-            if (user == null) return NotFound();
-
-            // SEGURO: Solo retorna campos no sensibles, omitiendo hashes o passwords
-            return Ok(new
+            try
             {
-                user.Id,
-                user.Username,
-                user.Email
-            });
+                var currentUserId = HttpContext.Session.GetInt32("UserId");
+
+                if (!currentUserId.HasValue)
+                {
+                    _logger.LogWarning("Api.GetUser - Intento de acceso no autenticado desde IP:{IP}", ip);
+                    return Unauthorized();
+                }
+
+                if (id != currentUserId.Value)
+                {
+                    _logger.LogWarning("Api.GetUser - Posible ataque IDOR detectado. Usuario:{User} (ID:{CurrentUserId}) intentó acceder al ID:{RequestedId}", userSession, currentUserId.Value, id);
+                    return Forbid();
+                }
+
+                var user = _db.Users.Find(id);
+                if (user == null)
+                {
+                    _logger.LogWarning("Api.GetUser - Usuario no encontrado con ID:{Id}", id);
+                    return NotFound();
+                }
+
+                _logger.LogInformation("Fin Api.GetUser - Exitoso. Salida: HTTP 200 OK");
+                return Ok(new
+                {
+                    user.Id,
+                    user.Username,
+                    user.Email
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Excepción crítica en Api.GetUser para ID:{Id}", id);
+                return StatusCode(500, "Error interno del servidor");
+            }
+            finally
+            {
+                stopwatch.Stop();
+                _logger.LogInformation("Fin Ejecución Api.GetUser. Tiempo de ejecución:{ElapsedMs}ms", stopwatch.ElapsedMilliseconds);
+            }
         }
     }
 }

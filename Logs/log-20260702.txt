@@ -1,0 +1,253 @@
+2026-07-02 13:53:45.860 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 13:53:46.069 -06:00 [INF] User profile is available. Using 'C:\Users\porra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 13:53:46.141 -06:00 [INF] Now listening on: http://localhost:5182
+2026-07-02 13:53:46.146 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 13:53:46.149 -06:00 [INF] Hosting environment: Development
+2026-07-02 13:53:46.152 -06:00 [INF] Content root path: C:\Users\porra\source\repos\VulnerableApp
+2026-07-02 13:53:54.222 -06:00 [INF] Application is shutting down...
+2026-07-02 13:55:18.252 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 13:55:18.430 -06:00 [INF] User profile is available. Using 'C:\Users\porra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 13:55:18.513 -06:00 [INF] Now listening on: http://localhost:5182
+2026-07-02 13:55:18.519 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 13:55:18.523 -06:00 [INF] Hosting environment: Development
+2026-07-02 13:55:18.526 -06:00 [INF] Content root path: C:\Users\porra\source\repos\VulnerableApp
+2026-07-02 13:56:40.571 -06:00 [INF] Application is shutting down...
+2026-07-02 13:57:20.238 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 13:57:20.422 -06:00 [INF] User profile is available. Using 'C:\Users\porra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 13:57:20.482 -06:00 [INF] Now listening on: http://localhost:5182
+2026-07-02 13:57:20.487 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 13:57:20.490 -06:00 [INF] Hosting environment: Development
+2026-07-02 13:57:20.494 -06:00 [INF] Content root path: C:\Users\porra\source\repos\VulnerableApp
+2026-07-02 13:58:01.412 -06:00 [INF] Application is shutting down...
+2026-07-02 13:58:41.991 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 13:58:42.172 -06:00 [INF] User profile is available. Using 'C:\Users\porra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 13:58:42.233 -06:00 [INF] Now listening on: http://localhost:5182
+2026-07-02 13:58:42.238 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 13:58:42.240 -06:00 [INF] Hosting environment: Development
+2026-07-02 13:58:42.243 -06:00 [INF] Content root path: C:\Users\porra\source\repos\VulnerableApp
+2026-07-02 13:59:02.776 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/ - null null
+2026-07-02 13:59:02.794 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 13:59:02.822 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-02 13:59:02.854 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-02 13:59:02.873 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:03.057 -06:00 [INF] Executed ViewResult - view Index executed in 183.9718ms.
+2026-07-02 13:59:03.072 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 212.9725ms
+2026-07-02 13:59:03.078 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-02 13:59:03.089 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/ - 200 null text/html; charset=utf-8 314.6006ms
+2026-07-02 13:59:03.108 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-02 13:59:03.109 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2026-07-02 13:59:03.112 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/VulnerableApp.styles.css?v=4aEGmwrlZ42w0Q1eGlWDz_fVayDyVOo-_b2367AhfmI - null null
+2026-07-02 13:59:03.112 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/lib/jquery/dist/jquery.min.js - null null
+2026-07-02 13:59:03.113 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-02 13:59:03.113 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-02 13:59:03.154 -06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\css\site.css'
+2026-07-02 13:59:03.154 -06:00 [INF] Sending file. Request path: '/VulnerableApp.styles.css'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\obj\Debug\net8.0\scopedcss\bundle\VulnerableApp.styles.css'
+2026-07-02 13:59:03.171 -06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\js\site.js'
+2026-07-02 13:59:03.177 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2026-07-02 13:59:03.178 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 68.4695ms
+2026-07-02 13:59:03.181 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/VulnerableApp.styles.css?v=4aEGmwrlZ42w0Q1eGlWDz_fVayDyVOo-_b2367AhfmI - 200 1131 text/css 68.6698ms
+2026-07-02 13:59:03.184 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 70.4268ms
+2026-07-02 13:59:03.190 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 81.5199ms
+2026-07-02 13:59:03.284 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2026-07-02 13:59:03.289 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 176.4012ms
+2026-07-02 13:59:03.309 -06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\lib\jquery\dist\jquery.min.js'
+2026-07-02 13:59:03.313 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 201.1123ms
+2026-07-02 13:59:03.347 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/favicon.ico - null null
+2026-07-02 13:59:03.374 -06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\porra\source\repos\VulnerableApp\wwwroot\favicon.ico'
+2026-07-02 13:59:03.379 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/favicon.ico - 200 5430 image/x-icon 31.4465ms
+2026-07-02 13:59:05.403 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Home/Privacy - null null
+2026-07-02 13:59:05.416 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp)'
+2026-07-02 13:59:05.420 -06:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-02 13:59:05.427 -06:00 [INF] Executing ViewResult, running view Privacy.
+2026-07-02 13:59:05.436 -06:00 [INF] Executed ViewResult - view Privacy executed in 9.6785ms.
+2026-07-02 13:59:05.441 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp) in 15.487ms
+2026-07-02 13:59:05.446 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp)'
+2026-07-02 13:59:05.451 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Home/Privacy - 200 null text/html; charset=utf-8 48.8076ms
+2026-07-02 13:59:06.410 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Comment - null null
+2026-07-02 13:59:06.422 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-02 13:59:06.428 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-02 13:59:06.438 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:06.450 -06:00 [INF] Executed ViewResult - view Index executed in 13.4437ms.
+2026-07-02 13:59:06.455 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 20.3886ms
+2026-07-02 13:59:06.461 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-02 13:59:06.471 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Comment - 200 null text/html; charset=utf-8 61.0529ms
+2026-07-02 13:59:16.098 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Search/Index - null null
+2026-07-02 13:59:16.112 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:16.126 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-02 13:59:16.290 -06:00 [INF] Entrando a Search.Index
+2026-07-02 13:59:16.303 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 13:59:16.310 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:16.324 -06:00 [INF] Executed ViewResult - view Index executed in 15.5331ms.
+2026-07-02 13:59:16.329 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 197.1451ms
+2026-07-02 13:59:16.335 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:16.342 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Search/Index - 200 null text/html; charset=utf-8 243.4377ms
+2026-07-02 13:59:18.494 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Search/Index?search=Ricardo - null null
+2026-07-02 13:59:18.503 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:18.506 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-02 13:59:18.524 -06:00 [INF] Entrando a Search.Index
+2026-07-02 13:59:18.527 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 13:59:21.810 -06:00 [INF] Executed DbCommand (41ms) [Parameters=[@__search_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @__search_0_contains ESCAPE N'\'
+2026-07-02 13:59:21.841 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:21.847 -06:00 [INF] Executed ViewResult - view Index executed in 6.3646ms.
+2026-07-02 13:59:21.853 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 3341.3546ms
+2026-07-02 13:59:21.859 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:21.877 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Search/Index?search=Ricardo - 200 null text/html; charset=utf-8 3383.1042ms
+2026-07-02 13:59:28.986 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Search/Index?search=admin - null null
+2026-07-02 13:59:28.994 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:28.998 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-02 13:59:29.007 -06:00 [INF] Entrando a Search.Index
+2026-07-02 13:59:29.010 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 13:59:29.048 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__search_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @__search_0_contains ESCAPE N'\'
+2026-07-02 13:59:29.108 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:29.113 -06:00 [INF] Executed ViewResult - view Index executed in 5.3839ms.
+2026-07-02 13:59:29.117 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 112.9601ms
+2026-07-02 13:59:29.122 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:29.126 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Search/Index?search=admin - 200 null text/html; charset=utf-8 139.4784ms
+2026-07-02 13:59:34.799 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5182/Search/Index?search=user1 - null null
+2026-07-02 13:59:34.808 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:34.811 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-02 13:59:34.818 -06:00 [INF] Entrando a Search.Index
+2026-07-02 13:59:34.821 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 13:59:34.901 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__search_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @__search_0_contains ESCAPE N'\'
+2026-07-02 13:59:34.907 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-02 13:59:34.912 -06:00 [INF] Executed ViewResult - view Index executed in 4.7486ms.
+2026-07-02 13:59:34.917 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 100.0791ms
+2026-07-02 13:59:34.922 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-02 13:59:34.926 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5182/Search/Index?search=user1 - 200 null text/html; charset=utf-8 127.3282ms
+2026-07-02 14:03:11.665 -06:00 [INF] Application is shutting down...
+2026-07-02 14:20:24.034 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 14:20:50.509 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 14:20:50.859 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:20:50.877 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:21:02.617 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:21:02.619 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:22:46.775 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:22:46.777 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:22:51.791 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:22:51.794 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:52:51.642 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 14:53:53.956 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 14:54:00.877 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:54:00.893 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:54:03.183 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:54:03.187 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 14:58:25.402 -06:00 [INF] Entrando a Search.Index
+2026-07-02 14:58:25.405 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:01:13.212 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:01:13.215 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:05:00.425 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:05:00.428 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:06:07.246 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 15:11:36.792 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 15:15:20.741 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 15:15:34.311 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:34.333 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:15:36.537 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:36.540 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:15:47.430 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:47.436 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:15:50.232 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:50.237 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:15:52.496 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:52.499 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:15:54.907 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:15:54.910 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:16:15.742 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:16:15.745 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:18:48.591 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:18:48.593 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:20:32.478 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 15:20:43.470 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 15:20:43.692 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:20:43.706 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:20:44.364 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:20:44.367 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:21:30.796 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:21:30.799 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:21:33.328 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:21:33.331 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:21:35.401 -06:00 [INF] Entrando a Search.Index
+2026-07-02 15:21:35.404 -06:00 [INF] Usuario:null IP:::1 Ruta:/Search/Index
+2026-07-02 15:28:53.423 -06:00 [INF] La aplicación inició correctamente.
+2026-07-02 15:29:02.977 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 15:29:26.955 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-02 15:29:26.960 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-02 15:29:26.963 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:19ms
+2026-07-02 15:29:37.408 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-02 15:30:20.456 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-02 15:30:23.156 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-02 15:30:23.168 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-02 15:30:23.172 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:2715ms
+2026-07-02 15:30:23.451 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-02 15:30:23.456 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:299ms
+2026-07-02 15:30:23.474 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-02 15:30:23.629 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-02 15:30:23.633 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:160ms
+2026-07-02 15:30:41.923 -06:00 [INF] Inicio Search.Index. Entrada a la acción.
+2026-07-02 15:30:41.930 -06:00 [INF] Usuario:admin IP:::1 Ruta:/Search/Index Parámetros:[search=null]
+2026-07-02 15:30:41.936 -06:00 [WRN] Search.Index - Parámetro de búsqueda vacío enviado por Usuario:admin
+2026-07-02 15:30:41.941 -06:00 [INF] Fin Search.Index - Salida: Retornando lista vacía.
+2026-07-02 15:30:41.945 -06:00 [INF] Fin Ejecución Search.Index. Tiempo de ejecución:22ms
+2026-07-02 15:30:45.513 -06:00 [INF] Inicio Search.Index. Entrada a la acción.
+2026-07-02 15:30:45.516 -06:00 [INF] Usuario:admin IP:::1 Ruta:/Search/Index Parámetros:[search=admin]
+2026-07-02 15:30:45.545 -06:00 [INF] Fin Search.Index - Salida exitosa. Coincidencias encontradas: 1
+2026-07-02 15:30:45.549 -06:00 [INF] Fin Ejecución Search.Index. Tiempo de ejecución:35ms
+2026-07-02 15:30:50.995 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-02 15:30:50.998 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:0
+2026-07-02 15:30:51.002 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:7ms
+2026-07-02 15:30:54.385 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 Parámetros:[commentLength=4]
+2026-07-02 15:30:54.389 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-02 15:30:54.392 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:6ms
+2026-07-02 15:30:54.403 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-02 15:30:54.406 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-02 15:30:54.409 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:6ms
+2026-07-02 15:32:04.323 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 Parámetros:[commentLength=34]
+2026-07-02 15:32:04.326 -06:00 [WRN] Comment.AddComment - Alerta de posible XSS detectado en parámetro 'comment' por Usuario:admin
+2026-07-02 15:32:04.331 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-02 15:32:04.333 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:10ms
+2026-07-02 15:32:04.345 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-02 15:32:04.348 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:2
+2026-07-02 15:32:04.350 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:5ms
+2026-07-02 15:32:16.783 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:admin IP:::1
+2026-07-02 15:32:20.770 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-02 15:32:21.014 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-02 15:32:21.018 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:248ms
+2026-07-02 15:32:21.028 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-02 15:32:21.036 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-02 15:32:21.038 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:9ms
+2026-07-02 15:32:23.431 -06:00 [INF] Inicio Auth.Logout. Evento Autenticación - Cierre de sesión solicitado por Usuario:admin IP:::1
+2026-07-02 15:32:23.436 -06:00 [INF] Evento Autenticación - Cierre de sesión Exitoso. Sesión limpiada.
+2026-07-02 15:32:23.440 -06:00 [INF] Fin Ejecución Auth.Logout. Tiempo de ejecución:8ms
+2026-07-02 15:32:23.449 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-02 15:32:23.454 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-02 15:32:23.457 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:7ms
+2026-07-02 15:32:39.088 -06:00 [INF] Inicio Comment.Index. Usuario:Anónimo IP:::1
+2026-07-02 15:32:39.092 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:2
+2026-07-02 15:32:39.095 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:7ms
+2026-07-02 15:32:41.093 -06:00 [INF] Inicio Comment.AddComment. Usuario:Anónimo IP:::1 Parámetros:[commentLength=50]
+2026-07-02 15:32:41.099 -06:00 [WRN] Comment.AddComment - Alerta de posible XSS detectado en parámetro 'comment' por Usuario:Anónimo
+2026-07-02 15:32:41.102 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-02 15:32:41.104 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:11ms
+2026-07-02 15:32:41.113 -06:00 [INF] Inicio Comment.Index. Usuario:Anónimo IP:::1
+2026-07-02 15:32:41.116 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:3
+2026-07-02 15:32:41.119 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:5ms
+2026-07-02 15:42:43.340 -06:00 [INF] Inicio Search.Index. Entrada a la acción.
+2026-07-02 15:42:43.347 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=null]
+2026-07-02 15:42:43.354 -06:00 [WRN] Search.Index - Parámetro de búsqueda vacío enviado por Usuario:Anónimo
+2026-07-02 15:42:43.386 -06:00 [INF] Fin Search.Index - Salida: Retornando lista vacía.
+2026-07-02 15:42:43.393 -06:00 [INF] Fin Ejecución Search.Index. Tiempo de ejecución:53ms
+2026-07-02 15:42:45.694 -06:00 [INF] Inicio Search.Index. Entrada a la acción.
+2026-07-02 15:42:45.697 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=error_test]
+2026-07-02 15:42:45.702 -06:00 [ERR] Excepción capturada en Search.Index al buscar: error_test
+System.InvalidOperationException: Simulación de error en la consulta a la base de datos de búsqueda.
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\porra\source\repos\VulnerableApp\Controllers\SearchController.cs:line 45
+2026-07-02 15:42:45.754 -06:00 [INF] Fin Ejecución Search.Index. Tiempo de ejecución:60ms

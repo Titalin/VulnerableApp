@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
+using Serilog;
+using Serilog.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddSession();
 
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
 var app = builder.Build();
+
+Console.WriteLine($"ContentRoot: {app.Environment.ContentRootPath}");
+Console.WriteLine($"WebRoot: {app.Environment.WebRootPath}");
+
+Log.Information("La aplicación inició correctamente.");
 
 if (!app.Environment.IsDevelopment())
 {
