@@ -1,0 +1,38 @@
+2026-07-06 19:09:31.929 -06:00 [INF] La aplicación inició correctamente.
+2026-07-06 19:11:37.028 -06:00 [INF] La aplicación inició correctamente.
+2026-07-06 19:12:21.936 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:12:22.074 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-06 19:12:22.079 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-06 19:12:22.083 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:21ms
+2026-07-06 19:12:22.278 -06:00 [INF] HTTP GET / respondió 200 en 284 ms
+2026-07-06 19:12:30.178 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=null]
+2026-07-06 19:12:30.187 -06:00 [WRN] Parámetro de búsqueda vacío enviado por Anónimo
+2026-07-06 19:12:30.207 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 286 ms
+2026-07-06 19:12:34.235 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=admin]
+2026-07-06 19:12:38.173 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-06 19:12:38.180 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 3960 ms
+2026-07-06 19:13:00.117 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=error_test]
+2026-07-06 19:13:00.128 -06:00 [ERR] Unhandled Exception
+System.InvalidOperationException: Simulación de error en la búsqueda.
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\porra\source\repos\VulnerableApp\Controllers\SearchController.cs:line 44
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\RequestLoggingMiddleware.cs:line 23
+   at VulnerableApp.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\CorrelationIdMiddleware.cs:line 20
+   at VulnerableApp.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\ExceptionMiddleware.cs:line 22

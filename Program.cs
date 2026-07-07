@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
 using Serilog;
 using Serilog.Events;
+using VulnerableApp.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +40,12 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseSession();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseMiddleware<CorrelationIdMiddleware>();
+
+app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.UseAuthorization();
 
