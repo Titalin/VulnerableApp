@@ -36,3 +36,676 @@ System.InvalidOperationException: Simulación de error en la búsqueda.
    at VulnerableApp.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\RequestLoggingMiddleware.cs:line 23
    at VulnerableApp.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\CorrelationIdMiddleware.cs:line 20
    at VulnerableApp.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\ExceptionMiddleware.cs:line 22
+2026-07-06 19:18:52.422 -06:00 [INF] La aplicación inició correctamente.
+2026-07-06 19:19:30.007 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:19:30.198 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user1]
+2026-07-06 19:19:32.241 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-06 19:19:32.380 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 2342 ms
+2026-07-06 19:19:50.732 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user2]
+2026-07-06 19:19:50.763 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-06 19:19:50.771 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 40 ms
+2026-07-06 19:19:50.815 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user3]
+2026-07-06 19:19:50.912 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:50.917 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 103 ms
+2026-07-06 19:19:50.958 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user4]
+2026-07-06 19:19:50.970 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:50.977 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 19 ms
+2026-07-06 19:19:51.016 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user5]
+2026-07-06 19:19:51.024 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.027 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.084 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user6]
+2026-07-06 19:19:51.091 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.094 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.132 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user7]
+2026-07-06 19:19:51.138 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.142 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:51.184 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user8]
+2026-07-06 19:19:51.191 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.195 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.233 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user9]
+2026-07-06 19:19:51.242 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.246 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:19:51.284 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user10]
+2026-07-06 19:19:51.292 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.295 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:51.332 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user11]
+2026-07-06 19:19:51.340 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.344 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:51.382 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user12]
+2026-07-06 19:19:51.389 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.392 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:51.432 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user13]
+2026-07-06 19:19:51.439 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.442 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.499 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user14]
+2026-07-06 19:19:51.507 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.510 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.549 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user15]
+2026-07-06 19:19:51.558 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.562 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:19:51.600 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user16]
+2026-07-06 19:19:51.606 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.611 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.650 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user17]
+2026-07-06 19:19:51.657 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.661 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.699 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user18]
+2026-07-06 19:19:51.706 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.710 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.749 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user19]
+2026-07-06 19:19:51.756 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.759 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.797 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user20]
+2026-07-06 19:19:51.804 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.807 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:51.845 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user21]
+2026-07-06 19:19:51.852 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.856 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:51.895 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user22]
+2026-07-06 19:19:51.901 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.906 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:51.943 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user23]
+2026-07-06 19:19:51.951 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:51.955 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:51.995 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user24]
+2026-07-06 19:19:52.002 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.005 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.044 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user25]
+2026-07-06 19:19:52.050 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.053 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.120 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user26]
+2026-07-06 19:19:52.126 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.129 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.167 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user27]
+2026-07-06 19:19:52.174 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.177 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.216 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user28]
+2026-07-06 19:19:52.222 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.226 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.264 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user29]
+2026-07-06 19:19:52.271 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.275 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.313 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user30]
+2026-07-06 19:19:52.320 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.324 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:52.362 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user31]
+2026-07-06 19:19:52.369 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.372 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.409 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user32]
+2026-07-06 19:19:52.417 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.421 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:52.458 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user33]
+2026-07-06 19:19:52.465 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.468 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.505 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user34]
+2026-07-06 19:19:52.513 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.516 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.553 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user35]
+2026-07-06 19:19:52.560 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.564 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.604 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user36]
+2026-07-06 19:19:52.610 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.614 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.653 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user37]
+2026-07-06 19:19:52.659 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.663 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.700 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user38]
+2026-07-06 19:19:52.706 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.709 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:52.744 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user39]
+2026-07-06 19:19:52.750 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.752 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:19:52.789 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user40]
+2026-07-06 19:19:52.795 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.798 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:52.834 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user41]
+2026-07-06 19:19:52.841 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.844 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:52.891 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user42]
+2026-07-06 19:19:52.898 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.902 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:52.945 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user43]
+2026-07-06 19:19:52.953 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:52.958 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:19:53.017 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user44]
+2026-07-06 19:19:53.022 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.025 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.061 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user45]
+2026-07-06 19:19:53.066 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.069 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.106 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user46]
+2026-07-06 19:19:53.112 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.115 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:19:53.155 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user47]
+2026-07-06 19:19:53.160 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.164 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.219 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user48]
+2026-07-06 19:19:53.225 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.228 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.285 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user49]
+2026-07-06 19:19:53.293 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.296 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:53.347 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user50]
+2026-07-06 19:19:53.353 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.357 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.408 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user51]
+2026-07-06 19:19:53.414 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.417 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.467 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user52]
+2026-07-06 19:19:53.474 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.477 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.530 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user53]
+2026-07-06 19:19:53.539 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.542 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:53.592 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user54]
+2026-07-06 19:19:53.598 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.602 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.654 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user55]
+2026-07-06 19:19:53.661 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.664 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.713 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user56]
+2026-07-06 19:19:53.719 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.723 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.774 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user57]
+2026-07-06 19:19:53.780 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.783 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.834 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user58]
+2026-07-06 19:19:53.840 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.843 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:53.895 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user59]
+2026-07-06 19:19:53.901 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.904 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:53.952 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user60]
+2026-07-06 19:19:53.959 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:53.962 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.012 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user61]
+2026-07-06 19:19:54.019 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.023 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:54.075 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user62]
+2026-07-06 19:19:54.081 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.084 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.136 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user63]
+2026-07-06 19:19:54.142 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.145 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.196 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user64]
+2026-07-06 19:19:54.202 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.206 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.259 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user65]
+2026-07-06 19:19:54.265 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.268 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.320 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user66]
+2026-07-06 19:19:54.326 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.329 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.377 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user67]
+2026-07-06 19:19:54.383 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.388 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:54.438 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user68]
+2026-07-06 19:19:54.444 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.448 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.499 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user69]
+2026-07-06 19:19:54.505 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.508 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.559 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user70]
+2026-07-06 19:19:54.564 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.568 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.622 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user71]
+2026-07-06 19:19:54.628 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.631 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.683 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user72]
+2026-07-06 19:19:54.690 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.693 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:54.745 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user73]
+2026-07-06 19:19:54.751 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.754 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.842 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user74]
+2026-07-06 19:19:54.849 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.852 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.904 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user75]
+2026-07-06 19:19:54.910 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.913 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:54.965 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user76]
+2026-07-06 19:19:54.972 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:54.975 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:55.028 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user77]
+2026-07-06 19:19:55.036 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.040 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:55.093 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user78]
+2026-07-06 19:19:55.100 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.103 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:55.154 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user79]
+2026-07-06 19:19:55.160 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.163 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.216 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user80]
+2026-07-06 19:19:55.224 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.227 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:55.277 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user81]
+2026-07-06 19:19:55.283 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.286 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.342 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user82]
+2026-07-06 19:19:55.348 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.351 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.401 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user83]
+2026-07-06 19:19:55.408 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.411 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:55.459 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user84]
+2026-07-06 19:19:55.465 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.468 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.516 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user85]
+2026-07-06 19:19:55.523 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.526 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:55.578 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user86]
+2026-07-06 19:19:55.584 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.587 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.636 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user87]
+2026-07-06 19:19:55.643 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.647 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:55.698 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user88]
+2026-07-06 19:19:55.705 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.708 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.755 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user89]
+2026-07-06 19:19:55.761 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.764 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:55.818 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user90]
+2026-07-06 19:19:55.825 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.830 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:19:55.885 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user91]
+2026-07-06 19:19:55.892 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.895 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:55.945 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user92]
+2026-07-06 19:19:55.951 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:55.956 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:19:56.009 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user93]
+2026-07-06 19:19:56.014 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.018 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:56.070 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user94]
+2026-07-06 19:19:56.076 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.080 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:56.132 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user95]
+2026-07-06 19:19:56.138 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.142 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:56.192 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user96]
+2026-07-06 19:19:56.198 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.201 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:19:56.252 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user97]
+2026-07-06 19:19:56.258 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.261 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:19:56.306 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user98]
+2026-07-06 19:19:56.312 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.316 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:56.368 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user99]
+2026-07-06 19:19:56.374 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.378 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:19:56.429 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user100]
+2026-07-06 19:19:56.435 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:19:56.438 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:21:21.354 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-06 19:21:21.478 -06:00 [INF] HTTP GET /Auth/Login respondió 200 en 129 ms
+2026-07-06 19:21:25.035 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-06 19:21:25.295 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-06 19:21:25.316 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:281ms
+2026-07-06 19:21:25.320 -06:00 [INF] HTTP POST /Auth/Login respondió 302 en 303 ms
+2026-07-06 19:21:25.333 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-06 19:21:25.378 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-06 19:21:25.382 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:48ms
+2026-07-06 19:21:25.389 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 58 ms
+2026-07-06 19:21:26.679 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-06 19:21:26.683 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:0
+2026-07-06 19:21:26.686 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:6ms
+2026-07-06 19:21:26.695 -06:00 [INF] HTTP GET /Comment respondió 200 en 17 ms
+2026-07-06 19:21:29.614 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 Parámetros:[commentLength=6]
+2026-07-06 19:21:29.632 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-06 19:21:29.644 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:30ms
+2026-07-06 19:21:29.651 -06:00 [INF] HTTP POST /Comment/AddComment respondió 302 en 48 ms
+2026-07-06 19:21:29.668 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-06 19:21:29.671 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-06 19:21:29.675 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:7ms
+2026-07-06 19:21:29.681 -06:00 [INF] HTTP GET /Comment respondió 200 en 13 ms
+2026-07-06 19:33:33.281 -06:00 [INF] La aplicación inició correctamente.
+2026-07-06 19:33:47.471 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:33:47.591 -06:00 [INF] Inicio Comment.AddComment. Usuario:Anónimo IP:::1 Parámetros:[commentLength=11]
+2026-07-06 19:33:47.599 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-06 19:33:47.602 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:21ms
+2026-07-06 19:33:47.643 -06:00 [INF] HTTP POST /Comment/AddComment respondió 302 en 118 ms
+2026-07-06 19:33:47.667 -06:00 [INF] Inicio Comment.Index. Usuario:Anónimo IP:::1
+2026-07-06 19:33:47.670 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-06 19:33:47.674 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:6ms
+2026-07-06 19:33:47.793 -06:00 [INF] HTTP GET /Comment respondió 200 en 129 ms
+2026-07-06 19:34:11.025 -06:00 [INF] HTTP GET /Au respondió 404 en 0 ms
+2026-07-06 19:34:18.934 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-06 19:34:19.027 -06:00 [INF] HTTP GET /Auth/login respondió 200 en 257 ms
+2026-07-06 19:34:23.415 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-06 19:34:27.100 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-06 19:34:27.104 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:3689ms
+2026-07-06 19:34:27.107 -06:00 [INF] HTTP POST /Auth/login respondió 302 en 3712 ms
+2026-07-06 19:34:27.122 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-06 19:34:27.180 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-06 19:34:27.183 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:60ms
+2026-07-06 19:34:27.193 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 74 ms
+2026-07-06 19:36:37.284 -06:00 [INF] La aplicación inició correctamente.
+2026-07-06 19:36:41.010 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:36:41.200 -06:00 [INF] Inicio Auth.Dashboard. Usuario:Anónimo IP:::1
+2026-07-06 19:36:41.207 -06:00 [WRN] Auth.Dashboard - Intento de acceso denegado a Dashboard. Redirigiendo a Login. IP:::1
+2026-07-06 19:36:41.211 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:20ms
+2026-07-06 19:36:41.233 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 302 en 189 ms
+2026-07-06 19:36:41.267 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-06 19:36:41.390 -06:00 [INF] HTTP GET /Auth/Login respondió 200 en 130 ms
+2026-07-06 19:36:45.777 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-06 19:36:47.981 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-06 19:36:47.984 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:2207ms
+2026-07-06 19:36:47.990 -06:00 [INF] HTTP POST /Auth/Login respondió 302 en 2244 ms
+2026-07-06 19:36:48.004 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-06 19:36:48.062 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-06 19:36:48.065 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:61ms
+2026-07-06 19:36:48.077 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 74 ms
+2026-07-06 19:39:14.800 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user1]
+2026-07-06 19:39:14.881 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-06 19:39:14.893 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 100 ms
+2026-07-06 19:39:14.939 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user2]
+2026-07-06 19:39:14.949 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-06 19:39:14.953 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 15 ms
+2026-07-06 19:39:14.993 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user3]
+2026-07-06 19:39:15.001 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.006 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:39:15.046 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user4]
+2026-07-06 19:39:15.053 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.057 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:15.098 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user5]
+2026-07-06 19:39:15.106 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.110 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:39:15.154 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user6]
+2026-07-06 19:39:15.161 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.164 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.207 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user7]
+2026-07-06 19:39:15.213 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.217 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:15.257 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user8]
+2026-07-06 19:39:15.263 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.267 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:15.305 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user9]
+2026-07-06 19:39:15.313 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.317 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:39:15.355 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user10]
+2026-07-06 19:39:15.361 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.365 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:15.407 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user11]
+2026-07-06 19:39:15.413 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.417 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:15.457 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user12]
+2026-07-06 19:39:15.464 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.467 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.509 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user13]
+2026-07-06 19:39:15.517 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.524 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 15 ms
+2026-07-06 19:39:15.564 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user14]
+2026-07-06 19:39:15.570 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.575 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.619 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user15]
+2026-07-06 19:39:15.629 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.632 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 14 ms
+2026-07-06 19:39:15.674 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user16]
+2026-07-06 19:39:15.680 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.685 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.724 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user17]
+2026-07-06 19:39:15.730 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.734 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.797 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user18]
+2026-07-06 19:39:15.803 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.807 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.845 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user19]
+2026-07-06 19:39:15.852 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.856 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.897 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user20]
+2026-07-06 19:39:15.904 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.908 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:39:15.949 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user21]
+2026-07-06 19:39:15.955 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:15.959 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:15.999 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user22]
+2026-07-06 19:39:16.008 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.011 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:39:16.050 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user23]
+2026-07-06 19:39:16.057 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.060 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:16.097 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user24]
+2026-07-06 19:39:16.105 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.110 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:39:16.159 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user25]
+2026-07-06 19:39:16.167 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.171 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 12 ms
+2026-07-06 19:39:16.216 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user26]
+2026-07-06 19:39:16.221 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.225 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:16.262 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user27]
+2026-07-06 19:39:16.267 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.270 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.307 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user28]
+2026-07-06 19:39:16.312 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.315 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.354 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user29]
+2026-07-06 19:39:16.359 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.362 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.398 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user30]
+2026-07-06 19:39:16.403 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.406 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.443 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user31]
+2026-07-06 19:39:16.448 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.451 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.488 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user32]
+2026-07-06 19:39:16.494 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.497 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.535 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user33]
+2026-07-06 19:39:16.543 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.546 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:16.588 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user34]
+2026-07-06 19:39:16.594 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.597 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.636 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user35]
+2026-07-06 19:39:16.642 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.645 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.682 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user36]
+2026-07-06 19:39:16.687 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.691 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:16.728 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user37]
+2026-07-06 19:39:16.734 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.737 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.772 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user38]
+2026-07-06 19:39:16.778 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.781 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.818 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user39]
+2026-07-06 19:39:16.825 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.828 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:16.863 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user40]
+2026-07-06 19:39:16.868 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.871 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.928 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user41]
+2026-07-06 19:39:16.934 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.937 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:16.972 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user42]
+2026-07-06 19:39:16.977 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:16.980 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:17.014 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user43]
+2026-07-06 19:39:17.020 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.023 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:17.059 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user44]
+2026-07-06 19:39:17.065 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.068 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.107 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user45]
+2026-07-06 19:39:17.113 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.117 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:17.155 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user46]
+2026-07-06 19:39:17.161 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.164 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.204 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user47]
+2026-07-06 19:39:17.210 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.213 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.251 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user48]
+2026-07-06 19:39:17.257 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.260 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.298 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user49]
+2026-07-06 19:39:17.303 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.306 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.341 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user50]
+2026-07-06 19:39:17.347 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.349 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:17.387 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user51]
+2026-07-06 19:39:17.393 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.396 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.430 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user52]
+2026-07-06 19:39:17.436 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.439 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.473 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user53]
+2026-07-06 19:39:17.478 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.482 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.517 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user54]
+2026-07-06 19:39:17.524 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.528 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:17.567 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user55]
+2026-07-06 19:39:17.573 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.577 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:17.614 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user56]
+2026-07-06 19:39:17.621 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.623 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.660 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user57]
+2026-07-06 19:39:17.666 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.670 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.707 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user58]
+2026-07-06 19:39:17.713 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.716 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.753 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user59]
+2026-07-06 19:39:17.759 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.762 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.798 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user60]
+2026-07-06 19:39:17.804 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.807 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.842 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user61]
+2026-07-06 19:39:17.848 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.851 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.889 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user62]
+2026-07-06 19:39:17.895 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.898 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.936 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user63]
+2026-07-06 19:39:17.943 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.946 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:17.986 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user64]
+2026-07-06 19:39:17.992 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:17.996 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:18.034 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user65]
+2026-07-06 19:39:18.040 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.043 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.081 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user66]
+2026-07-06 19:39:18.087 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.092 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 11 ms
+2026-07-06 19:39:18.130 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user67]
+2026-07-06 19:39:18.136 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.139 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.174 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user68]
+2026-07-06 19:39:18.180 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.183 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.223 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user69]
+2026-07-06 19:39:18.229 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.232 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.273 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user70]
+2026-07-06 19:39:18.279 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.282 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.316 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user71]
+2026-07-06 19:39:18.322 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.326 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:18.360 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user72]
+2026-07-06 19:39:18.366 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.369 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.404 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user73]
+2026-07-06 19:39:18.409 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.413 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.450 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user74]
+2026-07-06 19:39:18.455 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.459 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.494 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user75]
+2026-07-06 19:39:18.499 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.502 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:18.537 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user76]
+2026-07-06 19:39:18.543 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.546 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 10 ms
+2026-07-06 19:39:18.582 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user77]
+2026-07-06 19:39:18.592 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.596 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 13 ms
+2026-07-06 19:39:18.637 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user78]
+2026-07-06 19:39:18.643 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.645 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.680 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user79]
+2026-07-06 19:39:18.685 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.689 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.722 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user80]
+2026-07-06 19:39:18.728 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.731 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.767 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user81]
+2026-07-06 19:39:18.772 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.775 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:18.810 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user82]
+2026-07-06 19:39:18.815 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.818 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:18.853 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user83]
+2026-07-06 19:39:18.859 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.862 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:18.897 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user84]
+2026-07-06 19:39:18.902 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.905 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:18.939 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user85]
+2026-07-06 19:39:18.944 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.947 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:18.984 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user86]
+2026-07-06 19:39:18.989 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:18.993 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.029 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user87]
+2026-07-06 19:39:19.035 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.037 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.073 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user88]
+2026-07-06 19:39:19.078 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.081 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.120 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user89]
+2026-07-06 19:39:19.126 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.129 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.164 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user90]
+2026-07-06 19:39:19.169 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.172 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.206 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user91]
+2026-07-06 19:39:19.211 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.214 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.249 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user92]
+2026-07-06 19:39:19.261 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.264 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 15 ms
+2026-07-06 19:39:19.298 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user93]
+2026-07-06 19:39:19.304 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.307 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.342 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user94]
+2026-07-06 19:39:19.348 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.351 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.387 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user95]
+2026-07-06 19:39:19.392 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.395 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.430 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user96]
+2026-07-06 19:39:19.435 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.438 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:39:19.471 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user97]
+2026-07-06 19:39:19.477 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.479 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.514 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user98]
+2026-07-06 19:39:19.519 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.523 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.560 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user99]
+2026-07-06 19:39:19.565 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.568 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 9 ms
+2026-07-06 19:39:19.602 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user100]
+2026-07-06 19:39:19.608 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-06 19:39:19.610 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 8 ms
+2026-07-06 19:45:07.933 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-06 19:45:07.936 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:0
+2026-07-06 19:45:07.938 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:5ms
+2026-07-06 19:45:07.947 -06:00 [INF] HTTP GET /Comment respondió 200 en 17 ms
+2026-07-06 19:45:11.241 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 Parámetros:[commentLength=4]
+2026-07-06 19:45:11.246 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-06 19:45:11.250 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:8ms
+2026-07-06 19:45:11.253 -06:00 [INF] HTTP POST /Comment/AddComment respondió 302 en 15 ms
+2026-07-06 19:45:11.266 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-06 19:45:11.269 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-06 19:45:11.271 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:5ms
+2026-07-06 19:45:11.275 -06:00 [INF] HTTP GET /Comment respondió 200 en 10 ms

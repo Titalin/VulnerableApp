@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Http;
+using Serilog.Context; // <-- 1. IMPORTANTE: Agrega este namespace
+using System;
+using System.Threading.Tasks;
 
 namespace VulnerableApp.Middleware
 {
@@ -13,11 +16,17 @@ namespace VulnerableApp.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-            var cid = Guid.NewGuid().ToString();
+            if (!context.Request.Headers.TryGetValue("X-Correlation-ID", out var cid))
+            {
+                cid = Guid.NewGuid().ToString();
+            }
 
             context.Response.Headers["X-Correlation-ID"] = cid;
 
-            await _next(context);
+            using (LogContext.PushProperty("CorrelationId", cid.ToString()))
+            {
+                await _next(context);
+            }
         }
     }
 }
