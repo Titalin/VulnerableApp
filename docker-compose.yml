@@ -26,7 +26,7 @@ services:
     command: -config.file=/etc/promtail/config.yml
     volumes:
       - ./promtail-config.yaml:/etc/promtail/config.yml
-      - ./positions.yaml:/tmp/positions.yaml
+      - ./promtail-data:/promtail
       - ./Logs:/logs
     networks:
       - observability
