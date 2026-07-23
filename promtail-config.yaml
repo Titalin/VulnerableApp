@@ -1,0 +1,23 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /promptmail-data/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: vulnerableapp
+
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          application: VulnerableApp
+          environment: dev
+          module: authentication
+          category: Application
+          __path__: /logs/log-*.txt

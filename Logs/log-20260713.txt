@@ -1,0 +1,120 @@
+2026-07-13 15:57:37.271 -06:00 [INF] La aplicación inició correctamente.
+2026-07-13 16:00:35.327 -06:00 [INF] La aplicación inició correctamente.
+2026-07-13 16:00:44.000 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 16:00:44.365 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=admin]
+2026-07-13 16:00:49.374 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-13 16:00:49.617 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 5565 ms
+2026-07-13 16:00:52.641 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user1]
+2026-07-13 16:00:52.682 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-13 16:00:52.694 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 56 ms
+2026-07-13 16:00:55.936 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=' OR '1'='1]
+2026-07-13 16:00:56.025 -06:00 [INF] Búsqueda finalizada. Coincidencias: 0
+2026-07-13 16:00:56.031 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 98 ms
+2026-07-13 16:00:58.130 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=error_test]
+2026-07-13 16:00:58.142 -06:00 [ERR] Unhandled Exception
+System.InvalidOperationException: Simulación de error en la búsqueda.
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\porra\source\repos\VulnerableApp\Controllers\SearchController.cs:line 44
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\RequestLoggingMiddleware.cs:line 23
+   at VulnerableApp.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\CorrelationIdMiddleware.cs:line 28
+   at VulnerableApp.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\porra\source\repos\VulnerableApp\Middleware\ExceptionMiddleware.cs:line 22
+2026-07-13 16:01:03.688 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/Search/Index Parámetros:[search=user1]
+2026-07-13 16:01:03.702 -06:00 [INF] Búsqueda finalizada. Coincidencias: 1
+2026-07-13 16:01:03.708 -06:00 [INF] HTTP GET /Search/Index respondió 200 en 20 ms
+2026-07-13 19:13:21.036 -06:00 [INF] La aplicación inició correctamente.
+2026-07-13 19:13:21.514 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 19:13:21.626 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:13:21.631 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-13 19:13:21.634 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:19ms
+2026-07-13 19:13:21.747 -06:00 [INF] HTTP GET / respondió 200 en 185 ms
+2026-07-13 19:13:24.099 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:13:24.102 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-13 19:13:24.104 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:5ms
+2026-07-13 19:13:24.112 -06:00 [INF] HTTP GET / respondió 200 en 14 ms
+2026-07-13 19:13:24.930 -06:00 [INF] Inicio Home.Privacy. Usuario:Anónimo IP:::1
+2026-07-13 19:13:24.935 -06:00 [INF] Fin Home.Privacy - Renderizando política de privacidad.
+2026-07-13 19:13:24.938 -06:00 [INF] Fin Ejecución Home.Privacy. Tiempo de ejecución:8ms
+2026-07-13 19:13:24.946 -06:00 [INF] HTTP GET /Home/Privacy respondió 200 en 18 ms
+2026-07-13 19:13:25.929 -06:00 [INF] Inicio Comment.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:13:25.931 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:0
+2026-07-13 19:13:25.936 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:7ms
+2026-07-13 19:13:25.950 -06:00 [INF] HTTP GET /Comment respondió 200 en 23 ms
+2026-07-13 19:13:29.503 -06:00 [INF] Inicio Comment.AddComment. Usuario:Anónimo IP:::1 Parámetros:[commentLength=12]
+2026-07-13 19:13:29.507 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-13 19:13:29.511 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:8ms
+2026-07-13 19:13:29.515 -06:00 [INF] HTTP POST /Comment/AddComment respondió 302 en 62 ms
+2026-07-13 19:13:29.527 -06:00 [INF] Inicio Comment.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:13:29.531 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-13 19:13:29.536 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:8ms
+2026-07-13 19:13:29.542 -06:00 [INF] HTTP GET /Comment respondió 200 en 14 ms
+2026-07-13 19:13:31.218 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:13:31.222 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-13 19:13:31.224 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:5ms
+2026-07-13 19:13:31.228 -06:00 [INF] HTTP GET / respondió 200 en 9 ms
+2026-07-13 19:13:38.032 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-13 19:13:38.126 -06:00 [INF] HTTP GET /Auth/login respondió 200 en 355 ms
+2026-07-13 19:13:43.289 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-13 19:13:47.369 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-13 19:13:47.374 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:4085ms
+2026-07-13 19:13:47.378 -06:00 [INF] HTTP POST /Auth/login respondió 302 en 4115 ms
+2026-07-13 19:13:47.402 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-13 19:13:47.479 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-13 19:13:47.482 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:80ms
+2026-07-13 19:13:47.494 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 96 ms
+2026-07-13 19:13:52.753 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-13 19:13:52.759 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:1
+2026-07-13 19:13:52.762 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:9ms
+2026-07-13 19:13:52.770 -06:00 [INF] HTTP GET /Comment respondió 200 en 17 ms
+2026-07-13 19:13:56.668 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 Parámetros:[commentLength=7]
+2026-07-13 19:13:56.678 -06:00 [INF] Comment.AddComment - Comentario agregado con éxito.
+2026-07-13 19:13:56.691 -06:00 [INF] Fin Ejecución Comment.AddComment. Tiempo de ejecución:23ms
+2026-07-13 19:13:56.701 -06:00 [INF] HTTP POST /Comment/AddComment respondió 302 en 33 ms
+2026-07-13 19:13:56.718 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1
+2026-07-13 19:13:56.722 -06:00 [INF] Fin Comment.Index - Retornando lista de comentarios. Cantidad:2
+2026-07-13 19:13:56.725 -06:00 [INF] Fin Ejecución Comment.Index. Tiempo de ejecución:6ms
+2026-07-13 19:13:56.729 -06:00 [INF] HTTP GET /Comment respondió 200 en 11 ms
+2026-07-13 19:14:02.810 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:admin IP:::1
+2026-07-13 19:14:02.825 -06:00 [INF] HTTP GET /Auth/login respondió 200 en 16 ms
+2026-07-13 19:14:04.409 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-13 19:14:04.704 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-13 19:14:04.707 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:298ms
+2026-07-13 19:14:04.711 -06:00 [INF] HTTP POST /Auth/login respondió 302 en 302 ms
+2026-07-13 19:14:04.726 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-13 19:14:04.735 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-13 19:14:04.737 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:11ms
+2026-07-13 19:14:04.742 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 16 ms
+2026-07-13 19:14:06.021 -06:00 [INF] Inicio Auth.Logout. Evento Autenticación - Cierre de sesión solicitado por Usuario:admin IP:::1
+2026-07-13 19:14:06.024 -06:00 [INF] Evento Autenticación - Cierre de sesión Exitoso. Sesión limpiada.
+2026-07-13 19:14:06.026 -06:00 [INF] Fin Ejecución Auth.Logout. Tiempo de ejecución:4ms
+2026-07-13 19:14:06.029 -06:00 [INF] HTTP GET /Auth/Logout respondió 302 en 11 ms
+2026-07-13 19:14:06.042 -06:00 [INF] Inicio Home.Index. Usuario:Anónimo IP:::1
+2026-07-13 19:14:06.045 -06:00 [INF] Fin Home.Index - Renderizando vista principal.
+2026-07-13 19:14:06.047 -06:00 [INF] Fin Ejecución Home.Index. Tiempo de ejecución:4ms
+2026-07-13 19:14:06.052 -06:00 [INF] HTTP GET / respondió 200 en 9 ms
+2026-07-13 19:55:37.282 -06:00 [INF] Inicio Auth.Login [GET]. Usuario:Anónimo IP:::1
+2026-07-13 19:55:37.298 -06:00 [INF] HTTP GET /Auth/login respondió 200 en 25 ms
+2026-07-13 19:55:41.491 -06:00 [INF] Inicio Auth.Login [POST]. Evento Autenticación - Intento de acceso para Usuario:admin IP:::1
+2026-07-13 19:55:43.672 -06:00 [INF] Evento Autenticación - ÉXITO. Usuario:admin ha iniciado sesión correctamente desde IP:::1
+2026-07-13 19:55:43.675 -06:00 [INF] Fin Ejecución Auth.Login [POST]. Tiempo de ejecución:2184ms
+2026-07-13 19:55:43.697 -06:00 [INF] HTTP POST /Auth/login respondió 302 en 2208 ms
+2026-07-13 19:55:43.711 -06:00 [INF] Inicio Auth.Dashboard. Usuario:admin IP:::1
+2026-07-13 19:55:43.719 -06:00 [INF] Fin Auth.Dashboard - Carga exitosa del modelo para Usuario:admin
+2026-07-13 19:55:43.722 -06:00 [INF] Fin Ejecución Auth.Dashboard. Tiempo de ejecución:11ms
+2026-07-13 19:55:43.728 -06:00 [INF] HTTP GET /Auth/Dashboard respondió 200 en 17 ms

@@ -1,0 +1,56 @@
+name: Security Pipeline
+
+on:
+  push:
+    branches:
+      - secure
+  pull_request:
+    branches:
+      - secure
+
+jobs:
+
+  dast-zap:
+
+    name: DAST - OWASP ZAP
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Descargar código
+      uses: actions/checkout@v4
+
+
+    - name: Configurar .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+
+    - name: Restaurar dependencias
+      run: dotnet restore
+
+
+    - name: Compilar aplicación
+      run: dotnet build
+
+
+    - name: Ejecutar aplicación
+      run: |
+        dotnet run --project ./MiAppNetCore &
+        sleep 15
+
+
+    - name: Ejecutar OWASP ZAP
+      uses: zaproxy/action-baseline@v0.12.0
+      with:
+        target: 'http://localhost:5000'
+        cmd_options: '-I'
+
+
+    - name: Guardar reporte ZAP
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: zap-report
+        path: report_html.html
